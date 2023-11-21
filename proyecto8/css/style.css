@@ -1,0 +1,126 @@
+    body{
+        min-height: 100vh;
+        min-width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(83, 200, 220);
+    }
+    
+    .titulo {
+        font-family: Arial, sans-serif; 
+        font-size: 28px;
+        font-weight: 800;
+        color: #ff3636; 
+        height: 20px;
+        text-align: center;
+    }
+
+    .contenedor{
+    height: 70px;
+    width: 80px;
+    background-color: #c4b18200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    margin:  10px 8px;
+    box-shadow: inset 0px 0px 9px 1px #ffffff9e; 
+    border: 4px solid #ffffff92;
+    }
+
+    .cuenta {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    .cuenta-regresiva-item {
+        font-family: Arial, sans-serif; 
+        font-size: 23px;
+        font-weight: 800;
+        color: white; 
+    }
+    
+    .contenedor {
+        display: flex;
+    }
+    
+    .letras {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nombre {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        font-weight: 800;
+        color: white;
+        height: 20px;
+        width: 20px; 
+    }
+
+    .botones {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px; 
+    }
+
+    .botones button{
+        padding: 20px 16px;
+        outline: none;
+        border: none;
+        margin:  10px 2px;
+        color: rgb(195, 65, 0);
+        background:bisque;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 1.7rem;
+        cursor: pointer;
+    }
+    .botones button.on{
+        pointer-events: none;
+        opacity: .7;
+    }
+
+    .botones button.boton{
+        cursor: pointer;
+        color: bisque;
+        background:rgb(195, 65, 0);
+    }
+    
+    .noelOff{
+        width: 600px;
+        height: 550px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        background-image: url("../img/papaNoel.png");
+        background-repeat: no-repeat;
+    }
+    
+    .noelOff.on{
+        background-image: url("../img/baile.gif");
+    }
+    .noelOnOff{
+        width: 100px;
+        height: 50px;
+        background-color:rgb(195, 65, 0);
+        border-radius: 1vh;
+        border: .2rem solid rgb(224, 120, 59);
+        position: fixed;
+        color: antiquewhite;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-family: monospace;
+        cursor: pointer;
+    }
+    .noelOnOff:hover{
+        background-color: bisque;
+        color: black;
+    }
+    .botones button.boton:hover{
+        color: bisque;
+        background: rgb(224, 120, 0);
+    }
